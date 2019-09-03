@@ -1,0 +1,48 @@
+faction_pooled_resource_transaction
+	resource
+	factor
+	amount
+	resource_cost
+add_mercenary_to_faction_pool
+	unit_key
+	amount
+adjust_loyalty_for_faction
+province_slaves_change
+	province_key
+	amount
+faction_slaves_change
+money
+influence
+honour
+grant_unit
+	unit_key
+	location (payload location, not X,Y)
+grant_agent
+	agent_key
+	agent_subtype_key
+	location (payload location, not X,Y)
+effect_bundle
+	bundle_key
+	turns
+rebellion
+demolish_chain
+damage_buildings
+	min
+	max
+	location (payload location, not X,Y)
+damage_character
+building_restriction
+	building_level_key
+	enable
+	disable
+	event_restricted_only
+	global
+unit_restriction
+	unit_key
+	enable
+	disable
+	global
+issue_mission
+	MISSION DEFINITION (see victory objectives)
+game_victory
+
